@@ -5,5 +5,5 @@ where
 * $S(n)$ is the series (sum) of the first n standard deviation
 * $\mathbb{E} [x]$ is the expected value
 * $n$ is the time span of the observation (number of data points in a time series)
-* $C$ is a constant.
+* $C$ is a constant.  
  A value between $0.5-1$ indicates a positive autocorrelation-'high' followed by  'high', 'low' followed  by 'low'. $0-0.5$ switching between  'high' and 'low'.  $0.5$  no correelation.
