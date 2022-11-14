@@ -10,7 +10,7 @@ where
 
 A value between $0.5-1$ indicates a positive autocorrelation-'high' followed by  'high', 'low' followed  by 'low'. $0-0.5$ switching between  'high' and 'low'.  $0.5$  no correelation. The python code is as  follows
  
- ```{python}
+ ```python
  def hurst(df, max_days_one_period):
     RSlist = []
     nList = range(30,max_days_one_period)
